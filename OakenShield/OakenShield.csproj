@@ -52,6 +52,7 @@
     <Compile Include="FilteringInterceptor.cs" />
     <Compile Include="FilteringInterceptorSelector.cs" />
     <Compile Include="MethodDescriptor.cs" />
+    <Compile Include="PredicatesNotSatisfiedException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeDescriptor.cs" />
   </ItemGroup>

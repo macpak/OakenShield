@@ -7,7 +7,8 @@ namespace OakenShield.Tests
     public class Test
     {
         [Test]
-        public void Test1()
+        [ExpectedException(typeof(PredicatesNotSatisfiedException))]
+        public void PredicateNotSatisfied_ShouldThrowException()
         {
             using (var container = new WindsorContainer())
             {
@@ -19,7 +20,7 @@ namespace OakenShield.Tests
                                        });
 
                 var instance = container.Resolve<A>();
-                instance.Fun(11,"qwe");
+                instance.Fun(2,"qwe");
             }
 
         }

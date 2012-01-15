@@ -26,7 +26,7 @@ namespace OakenShield
 
                 var isPredicateSatisfied = (bool)result.DynamicInvoke(argument);
                 if (isPredicateSatisfied == false)
-                    return;
+                    throw new PredicatesNotSatisfiedException(string.Format("Could not proceeed because of argument {0}", parameterInfo.Name));
             }
 
             invocation.Proceed();

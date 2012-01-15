@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakenShield", "OakenShield\OakenShield.csproj", "{34216249-476D-49FA-BD9F-14DC82791C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakenShield.Tests", "OakenShield.Tests\OakenShield.Tests.csproj", "{B3DB09D5-AE19-465A-A944-05A2E22BB50E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34216249-476D-49FA-BD9F-14DC82791C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34216249-476D-49FA-BD9F-14DC82791C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34216249-476D-49FA-BD9F-14DC82791C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34216249-476D-49FA-BD9F-14DC82791C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DB09D5-AE19-465A-A944-05A2E22BB50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DB09D5-AE19-465A-A944-05A2E22BB50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DB09D5-AE19-465A-A944-05A2E22BB50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DB09D5-AE19-465A-A944-05A2E22BB50E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+A simple extension for Castle Windsor to manage arguments passed to methods

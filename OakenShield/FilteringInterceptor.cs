@@ -11,7 +11,7 @@ namespace OakenShield
 
         public void Intercept(IInvocation invocation)
         {
-            var parameterInfos = invocation.MethodInvocationTarget.GetParameters();
+            var parameterInfos = invocation.MethodInvocationTarget.GetParameters();2
             for (var index   = 0; index < invocation.Arguments.Length; index++)
             {
                 var argument = invocation.Arguments[index];
